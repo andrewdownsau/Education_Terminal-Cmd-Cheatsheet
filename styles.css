@@ -1,0 +1,28 @@
+body, select {
+	background-color: black;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	margin: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover, a:visited:hover {
+	background-color: white;
+	color: black;
+	cursor: pointer;
+}
+
+a:visited { 
+	text-decoration: none; 
+	color: white; 
+}
+
+p {
+	display: none;
+	margin: 10px;
+}
