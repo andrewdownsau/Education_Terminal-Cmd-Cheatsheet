@@ -78,5 +78,17 @@
 		<DESCRIPTION>AndAnd (Chains commands together on a single command line submission)</DESCRIPTION>
 		<OPTIONS></OPTIONS>
 	</COMMAND>
+	
+	<COMMAND>
+		<TITLE>grep</TITLE>
+		<DESCRIPTION>Global Regular Expression Print (Search for character string in documents)</DESCRIPTION>
+		<OPTIONS></OPTIONS>
+	</COMMAND>
+	
+	<COMMAND>
+		<TITLE>|</TITLE>
+		<DESCRIPTION>Pipe (Transfer output of one command to an additional file or output)</DESCRIPTION>
+		<OPTIONS></OPTIONS>
+	</COMMAND>
 
 </DATA>
