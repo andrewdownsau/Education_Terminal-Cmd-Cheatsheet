@@ -1,0 +1,82 @@
+<DATA>
+
+
+	<COMMAND>
+		<TITLE>ls</TITLE>
+		<DESCRIPTION>List (shows files and folders in current directory)</DESCRIPTION>
+		<OPTIONS>-a (hidden) -l(long)</OPTIONS>
+	</COMMAND>
+
+	<COMMAND>
+		<TITLE>pwd</TITLE>
+		<DESCRIPTION>Print Working Directory (Current absolute directory path)</DESCRIPTION>
+		<OPTIONS></OPTIONS>
+	</COMMAND>
+	
+	<COMMAND>
+		<TITLE>cd</TITLE>
+		<DESCRIPTION>Change Directory (switch the current working directory)</DESCRIPTION>
+		<OPTIONS>.(current) ..(parent) ~(home) /(root)</OPTIONS>
+	</COMMAND>
+	
+	<COMMAND>
+		<TITLE>touch</TITLE>
+		<DESCRIPTION>Touch (Creates new file with defined name and extension)</DESCRIPTION>
+		<OPTIONS>“.” prefix creates hidden file</OPTIONS>
+	</COMMAND>
+	
+	<COMMAND>
+		<TITLE>mkdir</TITLE>
+		<DESCRIPTION>Make Directory (Creates new folder/directory with name)</DESCRIPTION>
+		<OPTIONS>“.” prefix creates hidden directory -p(create parents as needed)</OPTIONS>
+	</COMMAND>
+	
+	<COMMAND>
+		<TITLE>rm</TITLE>
+		<DESCRIPTION>Remove (Deletes file or directory/contents permanently)</DESCRIPTION>
+		<OPTIONS>-r (recursive), -f (forced)</OPTIONS>
+	</COMMAND>
+	
+	<COMMAND>
+		<TITLE>mv</TITLE>
+		<DESCRIPTION>Move (Moves file contents to new target file (name/location changed))</DESCRIPTION>
+		<OPTIONS></OPTIONS>
+	</COMMAND>
+	
+	<COMMAND>
+		<TITLE>cp</TITLE>
+		<DESCRIPTION>Copy (Copy file or directory with name/location)</DESCRIPTION>
+		<OPTIONS>-r (recursive for directories)</OPTIONS>
+	</COMMAND>
+	
+	<COMMAND>
+		<TITLE>cat</TITLE>
+		<DESCRIPTION>Catenate (Combine file contents and output results onto terminal, just output contents if no combine)</DESCRIPTION>
+		<OPTIONS></OPTIONS>
+	</COMMAND>
+	
+	<COMMAND>
+		<TITLE>echo</TITLE>
+		<DESCRIPTION>Echo text (Print text after echo on terminal output)</DESCRIPTION>
+		<OPTIONS></OPTIONS>
+	</COMMAND>
+	
+	<COMMAND>
+		<TITLE>clear</TITLE>
+		<DESCRIPTION>Clear terminal (wipes all terminal commands and outputs for better readability)</DESCRIPTION>
+		<OPTIONS></OPTIONS>
+	</COMMAND>
+	
+	<COMMAND>
+		<TITLE>man</TITLE>
+		<DESCRIPTION>Manual (Provides detailed page describing command with options)</DESCRIPTION>
+		<OPTIONS></OPTIONS>
+	</COMMAND>
+	
+	<COMMAND>
+		<TITLE>&&</TITLE>
+		<DESCRIPTION>AndAnd (Chains commands together on a single command line submission)</DESCRIPTION>
+		<OPTIONS></OPTIONS>
+	</COMMAND>
+
+</DATA>
