@@ -6,20 +6,14 @@
 	<body>
 		
 		List (Tabs)
-		<pre>Command     Description                                                             Commonly Used Option/prefix</pre>
-		<ul>
-			<li><pre>ls       List (shows files and folders in current directory)                     -a(hidden) -l(long)</pre></li>
-			<li><pre>pwd      Print Working Directory (Current absolute directory path)               </pre></li>
-			<li><pre>cd       Change Directory (switch the current working directory)                 .(current) ..(parent) ~(home) /(root)</pre></li>
-			<li><pre>touch    Touch (Creates new file with defined name and extension)                "." prefix for hidden</pre></li>
-			<li><pre>mkdir    Make Directory (Creates new folder/directory with name)                 "." prefix for hidden -p(create parents as needed)</pre></li>
-			<li><pre>rm       Remove (Deletes file or directory/contents permanently)                 -r(recursive) -f(forced)</pre></li>
-			<li><pre>mv       Move (Moves file contents to new target file (name/location changed))   </pre></li>
-			<li><pre>cp       Copy (Copy file or directory with name/location)                        -r(recursive for directories)</pre></li>
-			<li><pre>cat      Catenate (Combine file contents and print output to terminal)           </pre></li>
-			<li><pre>echo     Echo text (Print text after echo on terminal output)                    </pre></li>
-		</ul>
+		<pre>Command     Description                                                                  Commonly Used Option/prefix</pre>
+		<div id="renderArea"></div>
+		
+		<br><br>
 		
 		<a href="index.html">>Index</a>
+		
+		<script src="scripts/read_xml_file.js"></script>
+		<script src="scripts/generate_list_tabs.js"></script>
 	</body>
 </html>

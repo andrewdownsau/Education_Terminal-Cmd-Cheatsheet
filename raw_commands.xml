@@ -30,7 +30,7 @@
 	<COMMAND>
 		<TITLE>mkdir</TITLE>
 		<DESCRIPTION>Make Directory (Creates new folder/directory with name)</DESCRIPTION>
-		<OPTIONS>“.” prefix creates hidden directory -p(create parents as needed)</OPTIONS>
+		<OPTIONS>“.” prefix for hidden directory -p(create parents)</OPTIONS>
 	</COMMAND>
 	
 	<COMMAND>
@@ -41,7 +41,7 @@
 	
 	<COMMAND>
 		<TITLE>mv</TITLE>
-		<DESCRIPTION>Move (Moves file contents to new target file (name/location changed))</DESCRIPTION>
+		<DESCRIPTION>Move (Moves file contents to new target file (new name/location))</DESCRIPTION>
 		<OPTIONS></OPTIONS>
 	</COMMAND>
 	
@@ -53,7 +53,7 @@
 	
 	<COMMAND>
 		<TITLE>cat</TITLE>
-		<DESCRIPTION>Catenate (Combine file contents and output results onto terminal, just output contents if no combine)</DESCRIPTION>
+		<DESCRIPTION>Catenate (Combine file contents and output results onto terminal)</DESCRIPTION>
 		<OPTIONS></OPTIONS>
 	</COMMAND>
 	
@@ -65,7 +65,7 @@
 	
 	<COMMAND>
 		<TITLE>clear</TITLE>
-		<DESCRIPTION>Clear terminal (wipes all terminal commands and outputs for better readability)</DESCRIPTION>
+		<DESCRIPTION>Clear terminal (wipes all terminal code for better readability)</DESCRIPTION>
 		<OPTIONS></OPTIONS>
 	</COMMAND>
 	
@@ -77,13 +77,13 @@
 	
 	<COMMAND>
 		<TITLE>&#38;&#38;</TITLE>
-		<DESCRIPTION>AndAnd (Chains commands together on a single command line submission)</DESCRIPTION>
+		<DESCRIPTION>AndAnd (Chains commands together on a command line submission)</DESCRIPTION>
 		<OPTIONS></OPTIONS>
 	</COMMAND>
 	
 	<COMMAND>
 		<TITLE>grep</TITLE>
-		<DESCRIPTION>Global Regular Expression Print (Search for character string in documents)</DESCRIPTION>
+		<DESCRIPTION>Global Regular Expression Print (Search for string in documents)</DESCRIPTION>
 		<OPTIONS></OPTIONS>
 	</COMMAND>
 	

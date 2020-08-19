@@ -7,59 +7,21 @@
 		Dropdown
 		<br><br>
 		
-		<select name="Commands" id="commands" onchange="displayText()">
-			<optgroup label="Commands">
-			<option value="select">Select:</option>
-			<option value="ls">ls</option>
-			<option value="pwd">pwd</option>
-			<option value="cd">cd</option>
-			<option value="touch">touch</option>
-			<option value="mkdir">mkdir</option>
-			<option value="rm">rm</option>
-			<option value="mv">mv</option>
-			<option value="cp">cp</option>
-			<option value="cat">cat</option>
-			<option value="echo">echo</option>
-		</select>
-		<p id="description_ls">List (shows files and folders in current directory)</p>
-		<p id="option_ls">-a(hidden) -l(long)</p>
-		<p id="description_pwd">Print Working Directory (Current absolute directory path)</p>
-		<p id="option_pwd"></p>
-		<p id="description_cd">Change Directory (switch the current working directory)</p>
-		<p id="option_cd">.(current) ..(parent) ~(home) /(root)</p>
-		<p id="description_touch">Touch (Creates new file with defined name and extension)</p>
-		<p id="option_touch">"." prefix for hidden</p>
-		<p id="description_mkdir">Make Directory (Creates new folder/directory with name)</p>
-		<p id="option_mkdir">"." prefix for hidden -p(create parents as needed)</p>
-		<p id="description_rm">Remove (Deletes file or directory/contents permanently)</p>
-		<p id="option_rm">-r(recursive) -f(forced)</p>
-		<p id="description_mv">Move (Moves file contents to new target file (name/location changed))</p>
-		<p id="option_mv"></p>
-		<p id="description_cp">Copy (Copy file or directory with name/location)</p>
-		<p id="option_cp">-r(recursive for directories)</p>
-		<p id="description_cat">Catenate (Combine file contents and print output to terminal)</p>
-		<p id="option_cat"></p>
-		<p id="description_echo">Echo text (Print text after echo on terminal output)</p>
-		<p id="option_echo"></p>
+		<table id="renderArea">
+			<tr>
+				<th>Command</th>
+				<th>Description</th>
+				<th>Commonly Used Option/prefix</th>
+			</tr>
+		</table>
 		
-  <br><br>
+		
+		<br><br>
+		
 		<a href="index.html">>Index</a>
+		
+		<script src="scripts/read_xml_file.js"></script>
+		<script src="scripts/generate_dropdown.js"></script>
 	</body>
 </html>
 
-<script>
-
-	function displayText(){
-		var x = document.getElementById("commands").value;
-		
-		//Clear display of all except the taget value to display
-		for(var i= 0; i < 20; i++){
-			document.getElementsByTagName("p")[i].style.display = "none";
-		}
-		
-		
-		document.getElementById("description_"+x).style.display = "inline";
-		document.getElementById("option_"+x).style.display = "inline";
-	}
-
-</script>

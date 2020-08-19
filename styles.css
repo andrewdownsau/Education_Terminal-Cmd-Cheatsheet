@@ -23,6 +23,19 @@ a:visited {
 }
 
 p {
-	display: none;
+	display: inline;
 	margin: 10px;
+}
+
+
+table, th, td {
+	border: 1px dashed white;
+}
+
+th, td {
+	padding: 12px;
+}
+
+select {
+	padding: 0px 10px;
 }
