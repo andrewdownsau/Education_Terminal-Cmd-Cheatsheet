@@ -10,9 +10,9 @@ I decided to add some javascript to the web app to read an XML file containing t
 To run this without cross compatibility errors run a local http-server (installed through npm on the command terminal)
 
 Terminal Commands:
-	$ npm install http-server -g
-	$ cd Terminal_Command_Cheatsheet
-	$ http-server
+ - $ npm install http-server -g
+ - $ cd Terminal_Command_Cheatsheet
+ - $ http-server
 
 Then in the browser use the URL and port configuration of the local http-server (any will do but I used the first one)
 
