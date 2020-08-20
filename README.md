@@ -4,7 +4,8 @@ Welcome to my simple terminal cheatsheet
 
 This is just a fairly simple web applicaiton used to both practise my html, css and javascript as well as reinforcing my learning of terminal commands.
 
-## Updated Version: I decided to add some javascript to the web app to read an XML file containing the data of the cheat sheet commands so that it was easier to update and changed the displayed option.
+## Updated Version: 
+I decided to add some javascript to the web app to read an XML file containing the data of the cheat sheet commands so that it was easier to update and changed the displayed option.
 
 To run this without cross compatibility errors run a local http-server (installed through npm on the command terminal)
 
